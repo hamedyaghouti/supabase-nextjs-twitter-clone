@@ -18,7 +18,7 @@ export default function AuthButtonClient({
       provider: "github",
       options: {
         redirectTo:
-          "https://*.supabase-nextjs-twitter-clone.pages.dev/auth/callback",
+          "https://supabase-nextjs-twitter-clone.pages.dev/auth/callback",
       },
     });
   };
