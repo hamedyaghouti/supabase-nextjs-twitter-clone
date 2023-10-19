@@ -1,0 +1,8 @@
+{
+  "/page": "app/page.js",
+  "/tweets/page": "app/tweets/page.js",
+  "/api/userinfo/route": "app/api/userinfo/route.js",
+  "/api/auth/callback/route": "app/api/auth/callback/route.js",
+  "/_not-found": "app/_not-found.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js"
+}

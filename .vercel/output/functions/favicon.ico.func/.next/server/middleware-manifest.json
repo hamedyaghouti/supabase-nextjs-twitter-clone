@@ -1,0 +1,111 @@
+{
+  "sortedMiddleware": [
+    "/"
+  ],
+  "middleware": {
+    "/": {
+      "files": [
+        "prerender-manifest.js",
+        "server/edge-runtime-webpack.js",
+        "server/middleware.js"
+      ],
+      "name": "middleware",
+      "page": "/",
+      "matchers": [
+        {
+          "regexp": "^/.*$",
+          "originalSource": "/:path*"
+        }
+      ],
+      "wasm": [],
+      "assets": []
+    }
+  },
+  "functions": {
+    "/page": {
+      "files": [
+        "server/server-reference-manifest.js",
+        "server/app/page_client-reference-manifest.js",
+        "server/middleware-build-manifest.js",
+        "server/middleware-react-loadable-manifest.js",
+        "server/next-font-manifest.js",
+        "prerender-manifest.js",
+        "server/edge-runtime-webpack.js",
+        "server/app/page.js"
+      ],
+      "name": "app/page",
+      "page": "/page",
+      "matchers": [
+        {
+          "regexp": "^/$",
+          "originalSource": "/"
+        }
+      ],
+      "wasm": [],
+      "assets": []
+    },
+    "/tweets/page": {
+      "files": [
+        "server/server-reference-manifest.js",
+        "server/app/tweets/page_client-reference-manifest.js",
+        "server/middleware-build-manifest.js",
+        "server/middleware-react-loadable-manifest.js",
+        "server/next-font-manifest.js",
+        "prerender-manifest.js",
+        "server/edge-runtime-webpack.js",
+        "server/app/tweets/page.js"
+      ],
+      "name": "app/tweets/page",
+      "page": "/tweets/page",
+      "matchers": [
+        {
+          "regexp": "^/tweets$",
+          "originalSource": "/tweets"
+        }
+      ],
+      "wasm": [],
+      "assets": []
+    },
+    "/api/userinfo/route": {
+      "files": [
+        "server/middleware-build-manifest.js",
+        "server/middleware-react-loadable-manifest.js",
+        "server/next-font-manifest.js",
+        "prerender-manifest.js",
+        "server/edge-runtime-webpack.js",
+        "server/app/api/userinfo/route.js"
+      ],
+      "name": "app/api/userinfo/route",
+      "page": "/api/userinfo/route",
+      "matchers": [
+        {
+          "regexp": "^/api/userinfo$",
+          "originalSource": "/api/userinfo"
+        }
+      ],
+      "wasm": [],
+      "assets": []
+    },
+    "/api/auth/callback/route": {
+      "files": [
+        "server/middleware-build-manifest.js",
+        "server/middleware-react-loadable-manifest.js",
+        "server/next-font-manifest.js",
+        "prerender-manifest.js",
+        "server/edge-runtime-webpack.js",
+        "server/app/api/auth/callback/route.js"
+      ],
+      "name": "app/api/auth/callback/route",
+      "page": "/api/auth/callback/route",
+      "matchers": [
+        {
+          "regexp": "^/api/auth/callback$",
+          "originalSource": "/api/auth/callback"
+        }
+      ],
+      "wasm": [],
+      "assets": []
+    }
+  },
+  "version": 2
+}

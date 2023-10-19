@@ -1,0 +1,15 @@
+{
+  "operationType": "Page",
+  "handler": "___next_launcher.cjs",
+  "runtime": "nodejs18.x",
+  "environment": {},
+  "supportsMultiPayloads": true,
+  "supportsResponseStreaming": true,
+  "framework": {
+    "slug": "nextjs",
+    "version": "13.5.4"
+  },
+  "launcherType": "Nodejs",
+  "shouldAddHelpers": false,
+  "shouldAddSourcemapSupport": false
+}

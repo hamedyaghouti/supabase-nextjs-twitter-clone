@@ -1,0 +1,8 @@
+{
+  "/page": "/",
+  "/tweets/page": "/tweets",
+  "/api/userinfo/route": "/api/userinfo",
+  "/api/auth/callback/route": "/api/auth/callback",
+  "/_not-found": "/_not-found",
+  "/favicon.ico/route": "/favicon.ico"
+}
