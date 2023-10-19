@@ -4,6 +4,7 @@ import {
   Session,
 } from "@supabase/auth-helpers-nextjs";
 import { useRouter } from "next/navigation";
+import { UserData } from "@/app/components/userdata";
 
 export default function AuthButtonClient({
   session,
@@ -18,7 +19,8 @@ export default function AuthButtonClient({
       provider: "github",
       options: {
         redirectTo:
-          "https://supabase-nextjs-twitter-clone.pages.dev/auth/callback",
+          "https://supabase-nextjs-twitter-clone.pages.dev/api/auth/callback",
+        // "http://localhost:8787/api/auth/callback",
       },
     });
   };
@@ -29,7 +31,10 @@ export default function AuthButtonClient({
   };
 
   return session ? (
-    <button onClick={handleSignOut}>Logout</button>
+    <>
+      <button onClick={handleSignOut}>Logout</button>
+      <UserData />
+    </>
   ) : (
     <button onClick={handleSignIn}>Login</button>
   );
