@@ -1,5 +1,6 @@
 {
   "/page": "app/page.js",
+  "/sign-up/page": "app/sign-up/page.js",
   "/tweets/page": "app/tweets/page.js",
   "/api/userinfo/route": "app/api/userinfo/route.js",
   "/api/auth/callback/route": "app/api/auth/callback/route.js",

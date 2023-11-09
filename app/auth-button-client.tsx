@@ -3,6 +3,7 @@ import {
   createClientComponentClient,
   Session,
 } from "@supabase/auth-helpers-nextjs";
+import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { UserData } from "@/app/components/userdata";
 
@@ -48,8 +49,15 @@ export default function AuthButtonClient({
     </>
   ) : (
     <>
-      <button onClick={handleGithubSignIn}>Github Login</button>
-      <button onClick={handleFigmaSignIn}>Figma Login</button>
+      <div>
+        <Link href="/sign-up">Sign Up</Link>
+      </div>
+      <div>
+        <button onClick={handleGithubSignIn}>Github Login</button>
+      </div>
+      <div>
+        <button onClick={handleFigmaSignIn}>Figma Login</button>
+      </div>
     </>
   );
 }
