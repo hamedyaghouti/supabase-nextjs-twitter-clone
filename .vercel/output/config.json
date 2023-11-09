@@ -32,7 +32,7 @@
       "continue": true
     },
     {
-      "src": "^/_next/data/qry1cwgYutBN5S5WsxfYD/(.*).json",
+      "src": "^/_next/data/kJEPquOQgwidpSksRJsaL/(.*).json",
       "dest": "/$1",
       "override": true,
       "continue": true,
@@ -62,7 +62,7 @@
         {
           "type": "header",
           "key": "x-prerender-revalidate",
-          "value": "4b408978f41767ed4b279934fe4fff73"
+          "value": "816f47cf6676093c200926e0b1e289de"
         }
       ],
       "middlewarePath": "middleware",
@@ -79,7 +79,7 @@
           "key": "x-nextjs-data"
         }
       ],
-      "dest": "/_next/data/qry1cwgYutBN5S5WsxfYD/index.json",
+      "dest": "/_next/data/kJEPquOQgwidpSksRJsaL/index.json",
       "continue": true,
       "override": true
     },
@@ -91,7 +91,7 @@
           "key": "x-nextjs-data"
         }
       ],
-      "dest": "/_next/data/qry1cwgYutBN5S5WsxfYD/$1.json",
+      "dest": "/_next/data/kJEPquOQgwidpSksRJsaL/$1.json",
       "continue": true,
       "override": true
     },
@@ -103,7 +103,7 @@
           "key": "next-router-prefetch"
         }
       ],
-      "dest": "/index.prefetch.rsc",
+      "dest": "/__index.prefetch.rsc",
       "headers": {
         "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Url"
       },
@@ -159,7 +159,7 @@
       "handle": "filesystem"
     },
     {
-      "src": "^/_next/data/qry1cwgYutBN5S5WsxfYD/(.*).json",
+      "src": "^/_next/data/kJEPquOQgwidpSksRJsaL/(.*).json",
       "dest": "/$1",
       "continue": true,
       "has": [
@@ -181,7 +181,7 @@
       "continue": true
     },
     {
-      "src": "/index.prefetch.rsc",
+      "src": "/__index.prefetch.rsc",
       "dest": "/index.rsc",
       "has": [
         {
@@ -231,7 +231,7 @@
           "key": "x-nextjs-data"
         }
       ],
-      "dest": "/_next/data/qry1cwgYutBN5S5WsxfYD/index.json",
+      "dest": "/_next/data/kJEPquOQgwidpSksRJsaL/index.json",
       "continue": true
     },
     {
@@ -242,11 +242,11 @@
           "key": "x-nextjs-data"
         }
       ],
-      "dest": "/_next/data/qry1cwgYutBN5S5WsxfYD/$1.json",
+      "dest": "/_next/data/kJEPquOQgwidpSksRJsaL/$1.json",
       "continue": true
     },
     {
-      "src": "^/_next/data/qry1cwgYutBN5S5WsxfYD/(.*).json",
+      "src": "^/_next/data/kJEPquOQgwidpSksRJsaL/(.*).json",
       "headers": {
         "x-nextjs-matched-path": "/$1"
       },
@@ -254,14 +254,14 @@
       "override": true
     },
     {
-      "src": "^/_next/data/qry1cwgYutBN5S5WsxfYD/(.*).json",
+      "src": "^/_next/data/kJEPquOQgwidpSksRJsaL/(.*).json",
       "dest": "__next_data_catchall"
     },
     {
       "handle": "hit"
     },
     {
-      "src": "/_next/static/(?:[^/]+/pages|pages|chunks|runtime|css|image|media|qry1cwgYutBN5S5WsxfYD)/.+",
+      "src": "/_next/static/(?:[^/]+/pages|pages|chunks|runtime|css|image|media|kJEPquOQgwidpSksRJsaL)/.+",
       "headers": {
         "cache-control": "public,max-age=31536000,immutable"
       },
