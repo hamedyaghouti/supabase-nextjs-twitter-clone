@@ -1,4 +1,5 @@
 "use client";
+import React from "react";
 import {
   createClientComponentClient,
   Session,
@@ -14,6 +15,8 @@ export default function AuthButtonClient({
 }) {
   const supabase = createClientComponentClient();
   const router = useRouter();
+  const [email, setEmail] = React.useState("");
+  const [password, setPassword] = React.useState("");
 
   const handleGithubSignIn = async () => {
     await supabase.auth.signInWithOAuth({
@@ -37,6 +40,18 @@ export default function AuthButtonClient({
     });
   };
 
+  const signInWithEmail = async (email: string, password: string) => {
+    const { data, error } = await supabase.auth.signInWithPassword({
+      email,
+      password,
+      options: {
+        // redirectTo: 'https//example.com/welcome'
+        // redirectTo: "https://supabase-nextjs-twitter-clone.pages.dev/",
+      },
+    });
+    console.log("dataaaaaaaaaaa =======> ", data);
+  };
+
   const handleSignOut = async () => {
     await supabase.auth.signOut();
     router.refresh();
@@ -58,6 +73,32 @@ export default function AuthButtonClient({
       <div>
         <button onClick={handleFigmaSignIn}>Figma Login</button>
       </div>
+      <form
+        onSubmit={(event) => {
+          event.preventDefault();
+          signInWithEmail(email, password);
+        }}
+      >
+        <input
+          className="text-black bg-white border rounded"
+          placeholder="email"
+          value={email}
+          onChange={(event) => {
+            const value = event.target.value;
+            setEmail(value);
+          }}
+        />
+        <input
+          className="text-black bg-white border rounded"
+          placeholder="password"
+          value={password}
+          onChange={(event) => {
+            const value = event.target.value;
+            setPassword(value);
+          }}
+        />
+        <button>Sign In</button>
+      </form>
     </>
   );
 }

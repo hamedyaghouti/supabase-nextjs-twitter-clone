@@ -1,39 +1,39 @@
 {
   "pages": {
     "/_not-found": [
-      "static/chunks/webpack-c260574cbfb10e78.js",
+      "static/chunks/webpack-a63423c2e3d8ff9b.js",
       "static/chunks/fd9d1056-bdbc21787612b876.js",
       "static/chunks/12-09a4b84998421c84.js",
       "static/chunks/main-app-e4f458537412773e.js",
       "static/chunks/app/_not-found-92e23a94853c32a1.js"
     ],
     "/layout": [
-      "static/chunks/webpack-c260574cbfb10e78.js",
+      "static/chunks/webpack-a63423c2e3d8ff9b.js",
       "static/chunks/fd9d1056-bdbc21787612b876.js",
       "static/chunks/12-09a4b84998421c84.js",
       "static/chunks/main-app-e4f458537412773e.js",
-      "static/css/80e2f106677dfc4d.css",
-      "static/chunks/app/layout-e83a87116a90569d.js"
+      "static/css/61e155d563a0a942.css",
+      "static/chunks/app/layout-cc8e3e665b70fc5d.js"
     ],
     "/page": [
-      "static/chunks/webpack-c260574cbfb10e78.js",
+      "static/chunks/webpack-a63423c2e3d8ff9b.js",
       "static/chunks/fd9d1056-bdbc21787612b876.js",
       "static/chunks/12-09a4b84998421c84.js",
       "static/chunks/main-app-e4f458537412773e.js",
       "static/chunks/881-76731045f3b47a40.js",
       "static/chunks/251-619bf47ba8aac2b9.js",
-      "static/chunks/app/page-0dcf31e3e76aa0fb.js"
+      "static/chunks/app/page-99847494730eeac9.js"
     ],
     "/sign-up/page": [
-      "static/chunks/webpack-c260574cbfb10e78.js",
+      "static/chunks/webpack-a63423c2e3d8ff9b.js",
       "static/chunks/fd9d1056-bdbc21787612b876.js",
       "static/chunks/12-09a4b84998421c84.js",
       "static/chunks/main-app-e4f458537412773e.js",
       "static/chunks/881-76731045f3b47a40.js",
-      "static/chunks/app/sign-up/page-2bb11f024ecbfcaf.js"
+      "static/chunks/app/sign-up/page-130e19af10948ffa.js"
     ],
     "/tweets/page": [
-      "static/chunks/webpack-c260574cbfb10e78.js",
+      "static/chunks/webpack-a63423c2e3d8ff9b.js",
       "static/chunks/fd9d1056-bdbc21787612b876.js",
       "static/chunks/12-09a4b84998421c84.js",
       "static/chunks/main-app-e4f458537412773e.js",

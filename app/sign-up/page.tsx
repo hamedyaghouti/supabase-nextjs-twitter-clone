@@ -31,7 +31,7 @@ export default function Page() {
     >
       <div className="mb-2">
         <input
-          className="border rounded"
+          className="text-black bg-white border rounded"
           placeholder="email"
           value={email}
           onChange={(event) => {
@@ -42,7 +42,7 @@ export default function Page() {
       </div>
       <div className="mb-2">
         <input
-          className="border rounded"
+          className="text-black bg-white border rounded"
           placeholder="password"
           value={password}
           onChange={(event) => {

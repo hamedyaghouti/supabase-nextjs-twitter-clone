@@ -32,7 +32,7 @@
       "continue": true
     },
     {
-      "src": "^/_next/data/lng51zFBS9hfa_w\\-7CpkS/(.*).json",
+      "src": "^/_next/data/V9HViV5QqfBaQpcXFI1ES/(.*).json",
       "dest": "/$1",
       "override": true,
       "continue": true,
@@ -62,7 +62,7 @@
         {
           "type": "header",
           "key": "x-prerender-revalidate",
-          "value": "f1b3481b80845b07b27787a822fd83f1"
+          "value": "e9565965eb4e72cfe4b2f925cfe7eb28"
         }
       ],
       "middlewarePath": "middleware",
@@ -79,7 +79,7 @@
           "key": "x-nextjs-data"
         }
       ],
-      "dest": "/_next/data/lng51zFBS9hfa_w-7CpkS/index.json",
+      "dest": "/_next/data/V9HViV5QqfBaQpcXFI1ES/index.json",
       "continue": true,
       "override": true
     },
@@ -91,7 +91,7 @@
           "key": "x-nextjs-data"
         }
       ],
-      "dest": "/_next/data/lng51zFBS9hfa_w-7CpkS/$1.json",
+      "dest": "/_next/data/V9HViV5QqfBaQpcXFI1ES/$1.json",
       "continue": true,
       "override": true
     },
@@ -159,7 +159,7 @@
       "handle": "filesystem"
     },
     {
-      "src": "^/_next/data/lng51zFBS9hfa_w\\-7CpkS/(.*).json",
+      "src": "^/_next/data/V9HViV5QqfBaQpcXFI1ES/(.*).json",
       "dest": "/$1",
       "continue": true,
       "has": [
@@ -231,7 +231,7 @@
           "key": "x-nextjs-data"
         }
       ],
-      "dest": "/_next/data/lng51zFBS9hfa_w-7CpkS/index.json",
+      "dest": "/_next/data/V9HViV5QqfBaQpcXFI1ES/index.json",
       "continue": true
     },
     {
@@ -242,11 +242,11 @@
           "key": "x-nextjs-data"
         }
       ],
-      "dest": "/_next/data/lng51zFBS9hfa_w-7CpkS/$1.json",
+      "dest": "/_next/data/V9HViV5QqfBaQpcXFI1ES/$1.json",
       "continue": true
     },
     {
-      "src": "^/_next/data/lng51zFBS9hfa_w\\-7CpkS/(.*).json",
+      "src": "^/_next/data/V9HViV5QqfBaQpcXFI1ES/(.*).json",
       "headers": {
         "x-nextjs-matched-path": "/$1"
       },
@@ -254,14 +254,14 @@
       "override": true
     },
     {
-      "src": "^/_next/data/lng51zFBS9hfa_w\\-7CpkS/(.*).json",
+      "src": "^/_next/data/V9HViV5QqfBaQpcXFI1ES/(.*).json",
       "dest": "__next_data_catchall"
     },
     {
       "handle": "hit"
     },
     {
-      "src": "/_next/static/(?:[^/]+/pages|pages|chunks|runtime|css|image|media|lng51zFBS9hfa_w\\-7CpkS)/.+",
+      "src": "/_next/static/(?:[^/]+/pages|pages|chunks|runtime|css|image|media|V9HViV5QqfBaQpcXFI1ES)/.+",
       "headers": {
         "cache-control": "public,max-age=31536000,immutable"
       },

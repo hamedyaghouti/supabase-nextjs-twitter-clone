@@ -1,5 +1,5 @@
 {
-  "timestamp": 1699540566907,
+  "timestamp": 1699726280428,
   "outputDir": ".vercel/output/static/_worker.js",
   "versions": {
     "@cloudflare/next-on-pages": "1.6.3"
@@ -230,13 +230,15 @@
       "/_app.rsc.json",
       "/_document.rsc.json",
       "/_error.rsc.json",
+      "/_next/static/V9HViV5QqfBaQpcXFI1ES/_buildManifest.js",
+      "/_next/static/V9HViV5QqfBaQpcXFI1ES/_ssgManifest.js",
       "/_next/static/chunks/12-09a4b84998421c84.js",
       "/_next/static/chunks/251-619bf47ba8aac2b9.js",
       "/_next/static/chunks/881-76731045f3b47a40.js",
       "/_next/static/chunks/app/_not-found-92e23a94853c32a1.js",
-      "/_next/static/chunks/app/layout-e83a87116a90569d.js",
-      "/_next/static/chunks/app/page-0dcf31e3e76aa0fb.js",
-      "/_next/static/chunks/app/sign-up/page-2bb11f024ecbfcaf.js",
+      "/_next/static/chunks/app/layout-cc8e3e665b70fc5d.js",
+      "/_next/static/chunks/app/page-99847494730eeac9.js",
+      "/_next/static/chunks/app/sign-up/page-130e19af10948ffa.js",
       "/_next/static/chunks/app/tweets/page-4071b2ab3333934d.js",
       "/_next/static/chunks/fd9d1056-bdbc21787612b876.js",
       "/_next/static/chunks/framework-8883d1e9be70c3da.js",
@@ -245,10 +247,8 @@
       "/_next/static/chunks/pages/_app-27277a117f49dcf1.js",
       "/_next/static/chunks/pages/_error-91a5938854a6f402.js",
       "/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js",
-      "/_next/static/chunks/webpack-c260574cbfb10e78.js",
-      "/_next/static/css/80e2f106677dfc4d.css",
-      "/_next/static/lng51zFBS9hfa_w-7CpkS/_buildManifest.js",
-      "/_next/static/lng51zFBS9hfa_w-7CpkS/_ssgManifest.js",
+      "/_next/static/chunks/webpack-a63423c2e3d8ff9b.js",
+      "/_next/static/css/61e155d563a0a942.css",
       "/_next/static/media/05a31a2ca4975f99-s.woff2",
       "/_next/static/media/513657b02c5c193f-s.woff2",
       "/_next/static/media/51ed15f9841b9f9d-s.woff2",
@@ -399,7 +399,7 @@
         },
         "1350": {
           "consumers": 1,
-          "groupedPath": "066089b6d77cf327cbd6031e11975f7d"
+          "groupedPath": "ca43bf742286ad46fe760e1a6f36a598"
         },
         "1355": {
           "consumers": 3,
@@ -423,7 +423,7 @@
         },
         "1440": {
           "consumers": 1,
-          "groupedPath": "066089b6d77cf327cbd6031e11975f7d"
+          "groupedPath": "ca43bf742286ad46fe760e1a6f36a598"
         },
         "1451": {
           "consumers": 5,
@@ -440,6 +440,10 @@
           "groupedPath": "9a9b3c430739818a1e551d0fc15d41f3",
           "newDest": "__next-on-pages-dist__/webpack/9a9b3c430739818a1e551d0fc15d41f3.js"
         },
+        "1674": {
+          "consumers": 1,
+          "groupedPath": "83ba7634eab225f2756f18c95f8cc36b"
+        },
         "1690": {
           "consumers": 3,
           "groupedPath": "017bb686894ddc54f007e64903a84e60",
@@ -449,10 +453,6 @@
           "consumers": 3,
           "groupedPath": "9a9b3c430739818a1e551d0fc15d41f3",
           "newDest": "__next-on-pages-dist__/webpack/9a9b3c430739818a1e551d0fc15d41f3.js"
-        },
-        "1913": {
-          "consumers": 1,
-          "groupedPath": "066089b6d77cf327cbd6031e11975f7d"
         },
         "1939": {
           "consumers": 3,
@@ -481,7 +481,7 @@
         },
         "2431": {
           "consumers": 1,
-          "groupedPath": "e472a27931019b3f6d62fe3b558b6dd1"
+          "groupedPath": "83ba7634eab225f2756f18c95f8cc36b"
         },
         "2458": {
           "consumers": 3,
@@ -616,17 +616,13 @@
           "groupedPath": "9a9b3c430739818a1e551d0fc15d41f3",
           "newDest": "__next-on-pages-dist__/webpack/9a9b3c430739818a1e551d0fc15d41f3.js"
         },
-        "3610": {
-          "consumers": 1,
-          "groupedPath": "a52dbe094bc0af3be9db824d0189f3f4"
-        },
         "3676": {
           "consumers": 1,
-          "groupedPath": "a52dbe094bc0af3be9db824d0189f3f4"
+          "groupedPath": "bde62e8a6bd0fc854d49b653639efa24"
         },
         "3691": {
           "consumers": 1,
-          "groupedPath": "e472a27931019b3f6d62fe3b558b6dd1"
+          "groupedPath": "83ba7634eab225f2756f18c95f8cc36b"
         },
         "3739": {
           "consumers": 3,
@@ -765,7 +761,7 @@
         },
         "4792": {
           "consumers": 1,
-          "groupedPath": "066089b6d77cf327cbd6031e11975f7d"
+          "groupedPath": "ca43bf742286ad46fe760e1a6f36a598"
         },
         "4818": {
           "consumers": 3,
@@ -819,7 +815,7 @@
         },
         "5204": {
           "consumers": 1,
-          "groupedPath": "066089b6d77cf327cbd6031e11975f7d"
+          "groupedPath": "ca43bf742286ad46fe760e1a6f36a598"
         },
         "5277": {
           "consumers": 3,
@@ -833,7 +829,7 @@
         },
         "5303": {
           "consumers": 1,
-          "groupedPath": "a52dbe094bc0af3be9db824d0189f3f4"
+          "groupedPath": "bde62e8a6bd0fc854d49b653639efa24"
         },
         "5380": {
           "consumers": 2,
@@ -937,7 +933,7 @@
         },
         "6446": {
           "consumers": 1,
-          "groupedPath": "066089b6d77cf327cbd6031e11975f7d"
+          "groupedPath": "ca43bf742286ad46fe760e1a6f36a598"
         },
         "6544": {
           "consumers": 5,
@@ -949,6 +945,10 @@
           "groupedPath": "236227f67198c76c91fc43b485d88ec2",
           "newDest": "__next-on-pages-dist__/webpack/236227f67198c76c91fc43b485d88ec2.js"
         },
+        "6600": {
+          "consumers": 1,
+          "groupedPath": "ca43bf742286ad46fe760e1a6f36a598"
+        },
         "6671": {
           "consumers": 3,
           "groupedPath": "9a9b3c430739818a1e551d0fc15d41f3",
@@ -956,7 +956,7 @@
         },
         "6738": {
           "consumers": 1,
-          "groupedPath": "e472a27931019b3f6d62fe3b558b6dd1"
+          "groupedPath": "83ba7634eab225f2756f18c95f8cc36b"
         },
         "6749": {
           "consumers": 3,
@@ -995,7 +995,7 @@
         },
         "7114": {
           "consumers": 1,
-          "groupedPath": "066089b6d77cf327cbd6031e11975f7d"
+          "groupedPath": "ca43bf742286ad46fe760e1a6f36a598"
         },
         "7197": {
           "consumers": 2,
@@ -1016,6 +1016,10 @@
           "consumers": 3,
           "groupedPath": "9a9b3c430739818a1e551d0fc15d41f3",
           "newDest": "__next-on-pages-dist__/webpack/9a9b3c430739818a1e551d0fc15d41f3.js"
+        },
+        "7382": {
+          "consumers": 1,
+          "groupedPath": "bde62e8a6bd0fc854d49b653639efa24"
         },
         "7386": {
           "consumers": 3,
@@ -1240,10 +1244,6 @@
           "consumers": 3,
           "groupedPath": "9a9b3c430739818a1e551d0fc15d41f3",
           "newDest": "__next-on-pages-dist__/webpack/9a9b3c430739818a1e551d0fc15d41f3.js"
-        },
-        "9717": {
-          "consumers": 1,
-          "groupedPath": "e472a27931019b3f6d62fe3b558b6dd1"
         },
         "9756": {
           "consumers": 3,
