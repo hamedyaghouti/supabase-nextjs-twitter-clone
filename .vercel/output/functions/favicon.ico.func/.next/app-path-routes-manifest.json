@@ -1,7 +1,7 @@
 {
   "/page": "/",
-  "/sign-up/page": "/sign-up",
   "/tweets/page": "/tweets",
+  "/sign-up/page": "/sign-up",
   "/api/userinfo/route": "/api/userinfo",
   "/api/auth/callback/route": "/api/auth/callback",
   "/_not-found": "/_not-found",

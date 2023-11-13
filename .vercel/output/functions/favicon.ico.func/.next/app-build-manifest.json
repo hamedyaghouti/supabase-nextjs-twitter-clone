@@ -20,17 +20,9 @@
       "static/chunks/fd9d1056-bdbc21787612b876.js",
       "static/chunks/12-09a4b84998421c84.js",
       "static/chunks/main-app-e4f458537412773e.js",
-      "static/chunks/881-76731045f3b47a40.js",
-      "static/chunks/251-619bf47ba8aac2b9.js",
-      "static/chunks/app/page-99847494730eeac9.js"
-    ],
-    "/sign-up/page": [
-      "static/chunks/webpack-a63423c2e3d8ff9b.js",
-      "static/chunks/fd9d1056-bdbc21787612b876.js",
-      "static/chunks/12-09a4b84998421c84.js",
-      "static/chunks/main-app-e4f458537412773e.js",
-      "static/chunks/881-76731045f3b47a40.js",
-      "static/chunks/app/sign-up/page-130e19af10948ffa.js"
+      "static/chunks/935-34bc8ccca24decfc.js",
+      "static/chunks/750-9602b647c4049eb9.js",
+      "static/chunks/app/page-2dcac3688682fcb9.js"
     ],
     "/tweets/page": [
       "static/chunks/webpack-a63423c2e3d8ff9b.js",
@@ -38,6 +30,15 @@
       "static/chunks/12-09a4b84998421c84.js",
       "static/chunks/main-app-e4f458537412773e.js",
       "static/chunks/app/tweets/page-4071b2ab3333934d.js"
+    ],
+    "/sign-up/page": [
+      "static/chunks/webpack-a63423c2e3d8ff9b.js",
+      "static/chunks/fd9d1056-bdbc21787612b876.js",
+      "static/chunks/12-09a4b84998421c84.js",
+      "static/chunks/main-app-e4f458537412773e.js",
+      "static/chunks/935-34bc8ccca24decfc.js",
+      "static/chunks/82-42ea012fea017b5a.js",
+      "static/chunks/app/sign-up/page-a1628efdf3c767a6.js"
     ]
   }
 }

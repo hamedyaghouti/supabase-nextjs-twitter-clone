@@ -44,28 +44,6 @@
       "wasm": [],
       "assets": []
     },
-    "/sign-up/page": {
-      "files": [
-        "server/server-reference-manifest.js",
-        "server/app/sign-up/page_client-reference-manifest.js",
-        "server/middleware-build-manifest.js",
-        "server/middleware-react-loadable-manifest.js",
-        "server/next-font-manifest.js",
-        "prerender-manifest.js",
-        "server/edge-runtime-webpack.js",
-        "server/app/sign-up/page.js"
-      ],
-      "name": "app/sign-up/page",
-      "page": "/sign-up/page",
-      "matchers": [
-        {
-          "regexp": "^/sign\\-up$",
-          "originalSource": "/sign-up"
-        }
-      ],
-      "wasm": [],
-      "assets": []
-    },
     "/tweets/page": {
       "files": [
         "server/server-reference-manifest.js",
@@ -83,6 +61,28 @@
         {
           "regexp": "^/tweets$",
           "originalSource": "/tweets"
+        }
+      ],
+      "wasm": [],
+      "assets": []
+    },
+    "/sign-up/page": {
+      "files": [
+        "server/server-reference-manifest.js",
+        "server/app/sign-up/page_client-reference-manifest.js",
+        "server/middleware-build-manifest.js",
+        "server/middleware-react-loadable-manifest.js",
+        "server/next-font-manifest.js",
+        "prerender-manifest.js",
+        "server/edge-runtime-webpack.js",
+        "server/app/sign-up/page.js"
+      ],
+      "name": "app/sign-up/page",
+      "page": "/sign-up/page",
+      "matchers": [
+        {
+          "regexp": "^/sign\\-up$",
+          "originalSource": "/sign-up"
         }
       ],
       "wasm": [],
