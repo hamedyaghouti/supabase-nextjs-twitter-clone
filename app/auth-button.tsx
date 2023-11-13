@@ -20,6 +20,15 @@ export default function AuthButtonClient({
     router.refresh();
   };
 
+  const initialized = React.useRef(false);
+
+  React.useEffect(() => {
+    if (!initialized.current && session) {
+      router.refresh();
+      initialized.current = true;
+    }
+  }, [router, session]);
+
   return session ? (
     <button onClick={handleSignOut}>Logout</button>
   ) : (

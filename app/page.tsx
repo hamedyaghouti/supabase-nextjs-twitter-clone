@@ -3,6 +3,7 @@ import AuthButton from "./auth-button";
 
 export const dynamic = "force-dynamic";
 export const runtime = "edge";
+// export const revalidate = 0;
 
 export default async function Home() {
   const {
