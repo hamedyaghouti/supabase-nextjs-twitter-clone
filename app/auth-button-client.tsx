@@ -22,9 +22,7 @@ export default function AuthButtonClient({
     await supabase.auth.signInWithOAuth({
       provider: "github",
       options: {
-        redirectTo:
-          "https://supabase-nextjs-twitter-clone.pages.dev/api/auth/callback",
-        // "http://localhost:8787/api/auth/callback",
+        redirectTo: `${process.env.NEXT_PUBLIC_ORIGIN_URL}/api/auth/callback`,
       },
     });
   };
@@ -33,8 +31,7 @@ export default function AuthButtonClient({
     await supabase.auth.signInWithOAuth({
       provider: "figma",
       options: {
-        redirectTo:
-          "https://supabase-nextjs-twitter-clone.pages.dev/api/auth/callback",
+        redirectTo: `${process.env.NEXT_PUBLIC_ORIGIN_URL}/api/auth/callback`,
         // "http://localhost:8787/api/auth/callback",
       },
     });
@@ -44,10 +41,6 @@ export default function AuthButtonClient({
     const { data, error } = await supabase.auth.signInWithPassword({
       email,
       password,
-      options: {
-        // redirectTo: 'https//example.com/welcome'
-        // redirectTo: "https://supabase-nextjs-twitter-clone.pages.dev/",
-      },
     });
     console.log("dataaaaaaaaaaa =======> ", data);
   };
