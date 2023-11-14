@@ -15,7 +15,7 @@ export default async function Home() {
 
   return (
     <div>
-      <header className="flex justify-end">
+      <header className="flex justify-end bg-[#2c2c2c] p-4 border-b-[#444444] border-b-[2px]">
         <AuthButton session={session} />
       </header>
       {/* <AuthButtonServer /> */}

@@ -30,8 +30,19 @@ export default function AuthButtonClient({
   }, [router, session]);
 
   return session ? (
-    <button onClick={handleSignOut}>Logout</button>
+    <div className="inline-block">
+      <button
+        className="p-2 bg-sky-600 hover:bg-sky-700 dark:hover:bg-sky-500 w-full rounded"
+        onClick={handleSignOut}
+      >
+        Logout
+      </button>
+    </div>
   ) : (
-    <Link href="/login">Login/Register</Link>
+    <Link href="/login">
+      <button className="p-2 bg-sky-600 hover:bg-sky-700 dark:hover:bg-sky-500 w-full rounded">
+        Login/Register
+      </button>
+    </Link>
   );
 }

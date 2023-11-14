@@ -33,33 +33,46 @@ export default function Email() {
 
   return (
     <form
-    //   onSubmit={(event) => {
-    //     event.preventDefault();
-    //     signInWithEmail(email, password);
-    //   }}
+      className=""
+      //   onSubmit={(event) => {
+      //     event.preventDefault();
+      //     signInWithEmail(email, password);
+      //   }}
     >
-      <input
-        className="text-black bg-white border rounded"
-        placeholder="email"
-        value={email}
-        onChange={(event) => {
-          const value = event.target.value;
-          setEmail(value);
-        }}
-      />
-      <input
-        className="text-black bg-white border rounded"
-        placeholder="password"
-        value={password}
-        onChange={(event) => {
-          const value = event.target.value;
-          setPassword(value);
-        }}
-      />
-      <button type="button" onClick={handleSignIn}>
+      <div>
+        <input
+          className="text-black bg-white border rounded block w-full p-2 mb-2"
+          placeholder="email"
+          value={email}
+          onChange={(event) => {
+            const value = event.target.value;
+            setEmail(value);
+          }}
+        />
+      </div>
+      <div>
+        <input
+          className="text-black bg-white border rounded block w-full p-2 mb-2"
+          placeholder="password"
+          value={password}
+          onChange={(event) => {
+            const value = event.target.value;
+            setPassword(value);
+          }}
+        />
+      </div>
+      <button
+        className="p-2 bg-sky-600 hover:bg-sky-700 dark:hover:bg-sky-500 w-full rounded mb-2"
+        type="button"
+        onClick={handleSignIn}
+      >
         Sign in
       </button>
-      <button type="button" onClick={handleSignUp}>
+      <button
+        className="p-2 bg-sky-600 hover:bg-sky-700 dark:hover:bg-sky-500 w-full rounded mb-2"
+        type="button"
+        onClick={handleSignUp}
+      >
         Sign up
       </button>
     </form>
